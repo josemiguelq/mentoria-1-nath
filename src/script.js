@@ -1,5 +1,5 @@
 // Quantos milisegundos faltam
-// Math.abs -> https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
+// Olha como funciona aqui: Math.abs -> https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
 let milisegundosRestantes = Math.abs(new Date(2022,11,10 ) - new Date());
 
 // Milisegundos em dias
@@ -10,7 +10,7 @@ let milisegundosRestantes = Math.abs(new Date(2022,11,10 ) - new Date());
 let diasRestantes = milisegundosRestantes /(1000 * 60 * 60 * 24)
 
 // Vai retornar um numero quebrado, por agora quero so os dias entao uso: Math.ceil
-// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil
+// Olha como funciona aqui: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil
 let diasInteirosRestantes = Math.ceil(diasRestantes)
 
 // simbolo + usado em textos serve para grudar
