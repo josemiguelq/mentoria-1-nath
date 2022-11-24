@@ -11,7 +11,7 @@ let diasRestantes = milisegundosRestantes /(1000 * 60 * 60 * 24)
 
 // Vai retornar um numero quebrado, por agora quero so os dias entao uso: Math.ceil
 // Olha como funciona aqui: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil
-let diasInteirosRestantes = Math.ceil(diasRestantes)
+let diasInteirosRestantes = Math.abs(diasRestantes)
 
 // simbolo + usado em textos serve para grudar
 const message = 'Faltam ' + diasInteirosRestantes + " dias"
